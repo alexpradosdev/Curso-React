@@ -1,5 +1,5 @@
 import React from 'react'
-import {PropTypes} from 'prop-types'
+import PropTypes from 'prop-types' // Importar desde CMD. PowerShell requiere de una configuración previa 
 
 
 export const ComponenteProps = ({ciudad="Lepe",provincia,codPost,children}) => {
